@@ -13,6 +13,7 @@ export default function About() {
           </a>
         </div>
         <div className='md:w-1/2'>
+          {/* Professional photo of myself */}
           <img
             src='/assets/about-img.jpg'
             alt='About me'
