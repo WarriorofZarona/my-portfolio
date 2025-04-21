@@ -1,6 +1,6 @@
 import Navbar from './components/Navbar';
 import Header from './components/Header';
-// import About from './components/About';
+import About from './components/About';
 // import Services from './components/Services';
 // import Portfolio from './components/Portfolio';
 // import CallToAction from './components/CallToAction';
@@ -15,7 +15,7 @@ export default function App() {
       </div>
       <Navbar />
       <Header />
-      {/* <About /> */}
+      <About />
       {/* <Services /> */}
       {/* <Portfolio /> */}
       {/* <CallToAction /> */}
