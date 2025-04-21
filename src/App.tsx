@@ -1,5 +1,5 @@
 import Navbar from './components/Navbar';
-// import Header from './components/Header';
+import Header from './components/Header';
 // import About from './components/About';
 // import Services from './components/Services';
 // import Portfolio from './components/Portfolio';
@@ -14,13 +14,13 @@ export default function App() {
         If you see me, Tailwind works!
       </div>
       <Navbar />
-      {/* <Header />
-      <About />
-      <Services />
-      <Portfolio />
-      <CallToAction />
-      <Contact />
-      <Footer /> */}
+      <Header />
+      {/* <About /> */}
+      {/* <Services /> */}
+      {/* <Portfolio /> */}
+      {/* <CallToAction /> */}
+      {/* <Contact /> */}
+      {/* <Footer />  */}
     </>
   );
 }
