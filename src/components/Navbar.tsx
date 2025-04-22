@@ -36,18 +36,23 @@ export default function Navbar() {
 
             {/* Desktop menu */}
             <ul className='hidden md:flex space-x-6'>
-              {['home', 'about', 'services', 'portfolio', 'contact'].map(
-                (section) => (
-                  <li key={section}>
-                    <a
-                      href={`#${section}`}
-                      className='capitalize text-white hover:text-amber-300 transition-colors'
-                    >
-                      {section}
-                    </a>
-                  </li>
-                )
-              )}
+              {[
+                'home',
+                'about',
+                'services',
+                'portfolio',
+                'skills',
+                'contact',
+              ].map((section) => (
+                <li key={section}>
+                  <a
+                    href={`#${section}`}
+                    className='capitalize text-white hover:text-amber-300 transition-colors'
+                  >
+                    {section}
+                  </a>
+                </li>
+              ))}
             </ul>
           </div>
 
@@ -56,19 +61,24 @@ export default function Navbar() {
             className={`${isMenuOpen ? 'block' : 'hidden'} md:hidden mt-4 pb-4`}
           >
             <ul className='flex flex-col space-y-4'>
-              {['home', 'about', 'services', 'portfolio', 'contact'].map(
-                (section) => (
-                  <li key={section}>
-                    <a
-                      href={`#${section}`}
-                      onClick={() => setIsMenuOpen(false)}
-                      className='capitalize text-white hover:text-amber-300 transition-colors block'
-                    >
-                      {section}
-                    </a>
-                  </li>
-                )
-              )}
+              {[
+                'home',
+                'about',
+                'services',
+                'portfolio',
+                'skills',
+                'contact',
+              ].map((section) => (
+                <li key={section}>
+                  <a
+                    href={`#${section}`}
+                    onClick={() => setIsMenuOpen(false)}
+                    className='capitalize text-white hover:text-amber-300 transition-colors block'
+                  >
+                    {section}
+                  </a>
+                </li>
+              ))}
             </ul>
           </div>
         </div>

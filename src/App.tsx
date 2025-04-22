@@ -6,6 +6,7 @@ import Portfolio from './components/Portfolio';
 import CallToAction from './components/CallToAction';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Skills from './components/Skills';
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
       <About />
       <Services />
       <Portfolio />
+      <Skills />
       <CallToAction />
       <Contact />
       <Footer />

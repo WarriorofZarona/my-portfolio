@@ -2,7 +2,7 @@ import { Fade } from 'react-awesome-reveal';
 
 export default function Contact() {
   return (
-    <section id='contact' className='py-20 bg-amber-100'>
+    <section id='contact' className='py-20 text-white bg-amber-900'>
       <Fade triggerOnce>
         <div className='container mx-auto px-6 max-w-lg'>
           <h2 className='text-4xl font-bold text-center mb-8'>Contact Me</h2>
