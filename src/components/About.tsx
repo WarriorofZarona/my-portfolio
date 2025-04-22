@@ -10,11 +10,11 @@ export default function About() {
             <h2 className='text-4xl font-bold'>About Me</h2>
             <p className='leading-relaxed text-gray-700 text-xl'>
               I’m a Full‑Stack JavaScript engineer with 5+ years of hands‑on
-              experience building pixel‑perfect React front‑ends, architecting
-              Node.js/Express backends, and gluing it all together with RESTful
-              APIs and GraphQL. I thrive on TypeScript safety, test‑driven
-              development, and performance optimizations that keep UIs snappy
-              and maintainable.
+              experience building React front‑ends, architecting Node.js/Express
+              backends, and gluing it all together with RESTful APIs and
+              GraphQL. I thrive on TypeScript safety, test‑driven development,
+              and performance optimizations that keep UIs snappy and
+              maintainable.
             </p>
             <a
               href='#services'
