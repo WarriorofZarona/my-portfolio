@@ -16,7 +16,10 @@ export default function Header() {
             <span className='block sm:inline'>One Cup at a Time</span>
           </h1>
           <p className='text-lg sm:text-xl md:text-2xl mb-6 max-w-2xl mx-auto'>
-            Coffee in hand, code on screen—hey, I'm Andrew, your React barista.
+            Coffee in hand, code on screen -{' '}
+            <span className='block sm:inline'>
+              hey, I'm Andrew, your React barista.
+            </span>
           </p>
           <div className='space-x-4'>
             <a
