@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <section id='contact' className='py-20'>
+    <section id='contact' className='py-20 bg-amber-100'>
       <div className='container mx-auto px-6 max-w-lg'>
         <h2 className='text-4xl font-bold text-center mb-8'>Contact Me</h2>
         <form
@@ -37,7 +37,7 @@ export default function Contact() {
           </div>
           <button
             type='submit'
-            className='bg-blue-500 text-white py-2 px-6 rounded hover:bg-blue-600 transition'
+            className='bg-amber-900 text-white py-2 px-6 rounded hover:bg-blue-600 transition'
           >
             Send Message
           </button>

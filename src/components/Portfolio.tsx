@@ -6,7 +6,7 @@ const projects = [
 
 export default function Portfolio() {
   return (
-    <section id='portfolio' className='py-20 bg-gray-100'>
+    <section id='portfolio' className='py-20 bg-amber-100'>
       <div className='container mx-auto px-6'>
         <h2 className='text-4xl font-bold text-center mb-12'>Portfolio</h2>
         <div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
