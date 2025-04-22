@@ -8,8 +8,10 @@ export default function Navbar() {
       <div className='bg-black/70 backdrop-blur-sm'>
         <div className='container mx-auto px-6 py-4'>
           <div className='flex justify-between items-center'>
-            <div className='text-2xl font-bold text-white'>Andrew B.</div>
-
+            <div className='flex items-end'>
+              <img src='/assets/images/logo.png' className='h-10 w-10' />
+              <div className='text-2xl font-bold text-white'>AMB Webdev</div>
+            </div>
             {/* Mobile menu button */}
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
