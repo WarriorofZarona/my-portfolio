@@ -12,6 +12,7 @@ export default function Contact() {
             method='POST'
             className='space-y-4'
           >
+            <input type='hidden' name='form-name' value='contact' />
             <div>
               <label className='block mb-1'>Name</label>
               <input
