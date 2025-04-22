@@ -7,7 +7,8 @@ export default function Contact() {
         <div className='container mx-auto px-6 max-w-lg'>
           <h2 className='text-4xl font-bold text-center mb-8'>Contact Me</h2>
           <form
-            action='https://formspree.io/f/your-form-id'
+            name='contact'
+            data-netlify='true'
             method='POST'
             className='space-y-4'
           >
