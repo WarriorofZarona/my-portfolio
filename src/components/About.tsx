@@ -3,7 +3,7 @@ import { Fade } from 'react-awesome-reveal';
 export default function About() {
   return (
     <section id='about' className='py-20 bg-amber-100'>
-      <div className='container mx-auto px-6 flex flex-col md:flex-row items-center gap-12'>
+      <div className='container mx-auto px-6 flex flex-col-reverse md:flex-row items-center gap-12'>
         {/* Text column */}
         <div className='md:w-1/2 space-y-6'>
           <Fade triggerOnce>

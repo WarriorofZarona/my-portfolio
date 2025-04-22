@@ -40,7 +40,7 @@ export default function Contact() {
             </div>
             <button
               type='submit'
-              className='bg-amber-900 text-white py-2 px-6 rounded hover:bg-blue-600 transition'
+              className='bg-amber-100 text-amber-900 py-2 px-6 rounded hover:bg-amber-50 transition'
             >
               Send Message
             </button>
