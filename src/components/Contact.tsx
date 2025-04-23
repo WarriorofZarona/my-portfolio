@@ -6,13 +6,7 @@ export default function Contact() {
       <Fade triggerOnce>
         <div className='container mx-auto px-6 max-w-lg'>
           <h2 className='text-4xl font-bold text-center mb-8'>Contact Me</h2>
-          <form
-            name='contact'
-            data-netlify='true'
-            method='POST'
-            action='/'
-            className='space-y-4'
-          >
+          <form name='contact' method='post' className='space-y-4'>
             <input type='hidden' name='form-name' value='contact' />
             <div>
               <label className='block mb-1'>Name</label>

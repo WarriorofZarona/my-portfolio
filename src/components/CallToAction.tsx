@@ -5,7 +5,7 @@ export default function CallToAction() {
         <h2 className='text-4xl font-bold mb-4'>Ready to work together?</h2>
         <a
           href='#contact'
-          className='bg-white text-amber-900 py-3 px-8 rounded font-semibold hover:bg-amber-50 transition'
+          className='bg-amber-900 text-white py-3 px-8 rounded font-semibold hover:bg-amber-50 transition'
         >
           Get in Touch
         </a>
