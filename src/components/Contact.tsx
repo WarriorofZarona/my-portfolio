@@ -10,6 +10,7 @@ export default function Contact() {
             name='contact'
             data-netlify='true'
             method='POST'
+            action='/'
             className='space-y-4'
           >
             <input type='hidden' name='form-name' value='contact' />
