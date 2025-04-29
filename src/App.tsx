@@ -3,10 +3,10 @@ import Header from './components/Header';
 import About from './components/About';
 import Services from './components/Services';
 import Portfolio from './components/Portfolio';
-import CallToAction from './components/CallToAction';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Skills from './components/Skills';
+import Testimonials from './components/Testimonials';
 
 export default function App() {
   return (
@@ -17,7 +17,7 @@ export default function App() {
       <Services />
       <Portfolio />
       <Skills />
-      <CallToAction />
+      <Testimonials />
       <Contact />
       <Footer />
     </>

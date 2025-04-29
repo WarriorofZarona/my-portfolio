@@ -2,11 +2,16 @@ import { Fade } from 'react-awesome-reveal';
 
 export default function Contact() {
   return (
-    <section id='contact' className='py-20 text-white bg-amber-900'>
+    <section id='contact' className='py-24 text-white bg-amber-900'>
       <Fade triggerOnce>
         <div className='container mx-auto px-6 max-w-lg'>
-          <h2 className='text-4xl font-bold text-center mb-8'>Contact Me</h2>
-          <form name='contact' method='post' className='space-y-4'>
+          <h2 className='mb-6 text-4xl font-bold text-center'>
+            Ready to Brew Something Awesome?
+          </h2>
+          <p className='mb-8 text-lg'>
+            Drop me a line below and let’s chat over ☕️ + code.
+          </p>
+          <form name='contact' method='post' className='space-y-6'>
             <input type='hidden' name='form-name' value='contact' />
             <div>
               <label className='block mb-1'>Name</label>
